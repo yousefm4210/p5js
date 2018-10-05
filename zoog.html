@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <title>p5js Template</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+    <script>
+function setup() {
+  createCanvas(600, 600);
+}
+
+function draw() {
+  background(220);
+  ellipse(200,200,200,200) //eyeball
+  ellipse(255,180,50,50)
+  ellipse(150,180,50,50)
+  ellipse(200,230,40,40)
+  rect(170,260,70,20)
+  rect(130,300,140,100)
+  line(270,340,380,340)
+  line(270,320,380,320)
+  rect(220,400,40,90)
+  rect(140,400,40,90)
+  rect(160,320,80,60)
+  ellipse(200,350,40,40)
+  fill(0)
+  stroke('blue')
+  strokeWeight(2)
+  point(160,150)
+  text('moe_47',60,40)
+  line(130,330,30,330)
+      line(130,350,30,350)
+
+  
+      
+       
+}
+    </script>
+</head>
+
+<body>
+    <div id="code" class="container-fluid">
+        <script src="https://gist-it.appspot.com/github/yousefm4210/p5js/blob/master/zoog.html?footer=0"></script>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(window).bind("load", function() {
+            $('#code').before($('#defaultCanvas0').remove());
+        });
+    </script>
+</body>
+
+
+</html>
